@@ -11,7 +11,7 @@ function App() {
   const [artist, setArtist] = useState(() => localStorage.getItem("artist") || "");
   const [isGenerated, setIsGenerated] = useState(() => {
     const storedIsGenerated = localStorage.getItem("isGenerated");
-    return storedIsGenerated ? storedIsGenerated === "true" : "false";
+    return storedIsGenerated ? storedIsGenerated === "true" : false;
   });
   const [options, setOptions] = useState([]);
   const [loading, setLoading] = useState(false);
