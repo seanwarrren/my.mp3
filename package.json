@@ -2,7 +2,7 @@
   "name": "mymp3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/my.mp3",
+  "homepage": "https://seanwarrren.github.io/my.mp3",
   "dependencies": {
     "@mui/material": "^6.1.8",
     "@testing-library/jest-dom": "^5.17.0",
